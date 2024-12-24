@@ -1,7 +1,7 @@
 # The Second Front
 
 ## IMPORTANT
-To the target of this code, you MUST NOT scroll once you have the code. Just compile this code.
+To the target of this code], just compile this code. No need to move around.
 
 ## Overview
 This file contains most of my sacred offensive operands reserved for the ultimate move, which will be conducted when I finally send this repository to her.
