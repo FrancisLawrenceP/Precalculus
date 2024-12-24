@@ -1,4 +1,5 @@
 # The Second Front
+Classic Second Front action in one swooping blow.
 
 ## IMPORTANT
 To the target of this code, just compile this code. No need to move around.
