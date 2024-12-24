@@ -40,7 +40,7 @@ public class Mangawang
                  */
                 if (otherPerson.equalsIgnoreCase("Bianca")) 
                 {
-                    Poem BiancaPoem = NewTacoPoem();
+                    Poem BiancaPoem = newTacoPoem();
 
                     for (int i = 0; i < 1000; i++) // Spams 1000 windows
                     {
@@ -80,7 +80,7 @@ public class Mangawang
                         SwingUtilities.invokeLater(() -> 
                         {
                             JFrame adriaanFrame = new JFrame("Haha wtf are you even doing?!");
-                            adriaanFrame.setSize(500, 300);
+                            adriaanFrame.setSize(500, 100);
                             adriaanFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
                             JTextArea adriaanArea = new JTextArea();
@@ -94,6 +94,7 @@ public class Mangawang
                             adriaanFrame.setVisible(true);
                         });
                     }
+                }
                 else 
                 {
                    /* 
@@ -196,7 +197,7 @@ class Person
     private boolean takenInARelationship = true; // Rhea Bianca Mangawang <33
 
     public void attemptToShip(String otherPerson) 
-  {
+    {
         if (isTakenInARelationship()) 
         {
             throw new IsInARelationshipError("private boolean takenInARelationship == true;");
@@ -207,7 +208,8 @@ class Person
         }
     }
 
-    private boolean isTakenInARelationship() {
+    private boolean isTakenInARelationship() 
+    {
         return takenInARelationship;
     }
 }
