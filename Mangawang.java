@@ -35,14 +35,12 @@ public class Mangawang
             {
                 String otherPerson = textField.getText();
                 /*
-                 * If the other person is Adriaan, then the program will spam a thousand windows
-                 * of the class.
-                 * The poem is encapsulated inside an object deep in the code to prevent early
-                 * leakage.
+                 * If the other person is Bianca herself, then the program will spam a thousand windows of the class.
+                 * The poem is encapsulated inside an object deep in the code to prevent early leakage.
                  */
-                if (otherPerson.equalsIgnoreCase("Adriaan")) 
+                if (otherPerson.equalsIgnoreCase("Bianca")) 
                 {
-                    Poem courtshipPoem = NewTacoPoem();
+                    Poem BiancaPoem = NewTacoPoem();
 
                     for (int i = 0; i < 1000; i++) // Spams 1000 windows
                     {
@@ -54,7 +52,7 @@ public class Mangawang
 
                             JTextArea poemArea = new JTextArea();
                             poemArea.setEditable(false);
-                            poemArea.setText(courtshipPoem.getPoemText());
+                            poemArea.setText(BiancaPoem.getPoemText());
                             poemFrame.add(new JScrollPane(poemArea));
 
                             poemFrame.setLocation(
@@ -72,9 +70,38 @@ public class Mangawang
                             Thread.currentThread().interrupt();
                         }
                     }
-                } 
+                }
+                else if (otherPerson.equalsIgnoreCase("Adriaan")) 
+                {
+                    Mockery adriaanText = mockYourself();
+
+                    for (int i = 0; i < 5; i++) 
+                    {
+                        SwingUtilities.invokeLater(() -> 
+                        {
+                            JFrame adriaanFrame = new JFrame("Haha wtf are you even doing?!");
+                            adriaanFrame.setSize(500, 300);
+                            adriaanFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+
+                            JTextArea adriaanArea = new JTextArea();
+                            adriaanArea.setEditable(false);
+                            adriaanArea.setText(adriaanText.getMockeryText());
+                            adriaanFrame.add(new JScrollPane(adriaanArea));
+
+                            adriaanFrame.setLocation(
+                                    (int) (Math.random() * Toolkit.getDefaultToolkit().getScreenSize().width),
+                                    (int) (Math.random() * Toolkit.getDefaultToolkit().getScreenSize().height));
+                            adriaanFrame.setVisible(true);
+                        });
+                    }
                 else 
                 {
+                   /* 
+                    * This section of the code deals with other names. This one currenntly holds
+                    * the original section of the code, where if any other name is put except for
+                    * Bianca and Adriaan, then it would spam the anti ship things a thousand times.
+                    * Works like the YouAreAnIdiot virus.
+                    */
                     try 
                     {
                         me.attemptToShip(otherPerson); // Normal logic
@@ -120,7 +147,13 @@ public class Mangawang
         frame.setVisible(true);
     }
 
-    private static Poem NewTacoPoem() 
+    private static Mockery mockYourself() 
+    {
+        return new Mockery("Haha wtf are you even doing to yourself, look!\n" +
+                "Don't ship himself to himself!");
+    }
+
+    private static Poem newTacoPoem() 
     {
         return new Poem(
                 "From endless hours to fleeting seconds,\n" +
@@ -199,5 +232,20 @@ class Poem
     public String getPoemText() 
     {
         return poemText;
+    }
+}
+
+class Mockery 
+{
+    private final String mockeryText;
+
+    public Mockery(String mockeryText) 
+    {
+        this.mockeryText = mockeryText;
+    }
+
+    public String getMockeryText() 
+    {
+        return mockeryText;
     }
 }
