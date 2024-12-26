@@ -38,5 +38,5 @@ This includes the following:
 
    This will launch the GUI window.
 
-## IMPORTANT
-To the target of this code, you MUST NOT scroll once you have the code. Just compile this code.
+## Final Notes
+
