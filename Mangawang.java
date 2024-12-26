@@ -158,30 +158,30 @@ public class Mangawang
     {
         return new Poem(
                 "From endless hours to fleeting seconds,\n" +
-                        "Pain arrived with heavy reckonings.\n" +
-                        "With suffering vast and blood profuse,\n" +
-                        "High hopes shattered, dreams let loose.\n\n" +
-                        "But one day came, without a clue,\n" +
-                        "In the depths of darkness I once knew.\n" +
-                        "A light so bright, unseen before,\n" +
-                        "Knocked gently, ready to explore.\n\n" +
-                        "From shadows grim and fears untamed,\n" +
-                        "You called me forth, no longer maimed.\n" +
-                        "A shell that bore defeat's harsh sting,\n" +
-                        "You mended, gave it strength to cling.\n\n" +
-                        "For all the times you stood so near,\n" +
-                        "A steady presence, calm and clear.\n" +
-                        "Through every trial, you held me tight,\n" +
-                        "A guiding star in my endless night.\n\n" +
-                        "And though these words may softly weave,\n" +
-                        "A hidden truth I must now leave:\n" +
-                        "In every rhyme, a piece of me,\n" +
-                        "A love so pure, it longs to be.\n\n" +
-                        "So here I stand, my heart laid bare,\n" +
-                        "With hope and courage, if you care.\n" +
-                        "We could write a story, just us two—\n" +
-                        "A tale of love that starts with you.\n\n" +
-                        "https://open.spotify.com/playlist/2REGe8iSmKI7FRC0HxU4Lk?si=abc433dc55014190&pt=92bf60c0f3e2393eae52347c81440056");
+                "Pain arrived with heavy reckonings.\n" +
+                "With suffering vast and blood profuse,\n" +
+                "High hopes shattered, dreams let loose.\n\n" +
+                "But one day came, without a clue,\n" +
+                "In the depths of darkness I once knew.\n" +
+                "A light so bright, unseen before,\n" +
+                "Knocked gently, ready to explore.\n\n" +
+                "From shadows grim and fears untamed,\n" +
+                "You called me forth, no longer maimed.\n" +
+                "A shell that bore defeat's harsh sting,\n" +
+                "You mended, gave it strength to cling.\n\n" +
+                "For all the times you stood so near,\n" +
+                "A steady presence, calm and clear.\n" +
+                "Through every trial, you held me tight,\n" +
+                "A guiding star in my endless night.\n\n" +
+                "And though these words may softly weave,\n" +
+                "A hidden truth I must now leave:\n" +
+                "In every rhyme, a piece of me,\n" +
+                "A love so pure, it longs to be.\n\n" +
+                "So here I stand, my heart laid bare,\n" +
+                "With hope and courage, if you care.\n" +
+                "We could write a story, just us two—\n" +
+                "A tale of love that starts with you.\n\n" +
+                "https://open.spotify.com/playlist/2REGe8iSmKI7FRC0HxU4Lk?si=abc433dc55014190&pt=92bf60c0f3e2393eae52347c81440056");
     }
 }
 
