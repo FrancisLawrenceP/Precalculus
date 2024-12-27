@@ -44,9 +44,9 @@ Dear Dr. Mangawang,
 I hope you enjoy my creation. I crafted this specially for youu (^^)
 
 Sincerely,
-Adriaan M. Dimate
-Student, BSCS2-A
-202310449@gordoncollege.edu.ph
+Adriaan M. Dimate\n
+Student, BSCS2-A\n
+202310449@gordoncollege.edu.ph\n
 
 Checked by:
 Prof. Loudel M. Manaloto, MSCS
