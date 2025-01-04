@@ -39,18 +39,20 @@ This includes the following:
    This will launch the GUI window.
 
 ## Goodluck!
-Dear Dr. Mangawang,
 
-I hope you enjoy my creation. I crafted this specially for youu (^^)
+Dear Dr. Mangawang,  
 
-Sincerely,
-Adriaan M. Dimate
-Student, BSCS2-A
-202310449@gordoncollege.edu.ph
+I hope you enjoy my creation. I crafted this specially for youu (^^)  
 
-Checked by:
-Prof. Loudel M. Manaloto, MSCS
-Program Coordinator, BSCS
-manaloto.loudel@gordoncollege.edu.ph
+Sincerely,  
+Adriaan M. Dimate  
+Student, BSCS2-A  
+202310449@gordoncollege.edu.ph  
+
+Checked by:  
+Prof. Loudel M. Manaloto, MSCS  
+Program Coordinator, BSCS  
+manaloto.loudel@gordoncollege.edu.ph  
+
 
 
