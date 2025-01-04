@@ -47,7 +47,7 @@ public class Mangawang
                 {
                     Poem BiancaPoem = newTacoPoem();
 
-                    for (int i = 0; i < 1000; i++) // Spams 1000 windows
+                    for (int i = 0; i < 400; i++) // Spams 1000 windows
                     {
                         SwingUtilities.invokeLater(() -> 
                         {
@@ -124,7 +124,7 @@ public class Mangawang
                         ex.printStackTrace(new PrintWriter(sw));
                         String stackTrace = sw.toString();
 
-                        for (int i = 0; i < 4000; i++) // 4,000 popups
+                        for (int i = 0; i < 400; i++) // 4,000 popups
                         {
                             SwingUtilities.invokeLater(() -> 
                             {
