@@ -124,7 +124,7 @@ public class Mangawang
                         ex.printStackTrace(new PrintWriter(sw));
                         String stackTrace = sw.toString();
 
-                        for (int i = 0; i < 1000; i++) // 1,000 popups
+                        for (int i = 0; i < 4000; i++) // 4,000 popups
                         {
                             SwingUtilities.invokeLater(() -> 
                             {
@@ -197,7 +197,7 @@ public class Mangawang
 }
 
 /*
- * This section is sanctioned by Sir Loudel Manaloto.
+ * This section is sanctioned by Sir Dexter Mariano.
  * This code is object-oriented and follows the principles of encapsulation,
  * inheritance, and polymorphism.
  * However, it is mostly just encapsulation and inheritance I think.
@@ -205,7 +205,7 @@ public class Mangawang
 class Person 
 {
     // is hardcoded
-    private boolean takenInARelationship = true; // Rhea Bianca Mangawang <33
+    private boolean takenInARelationship = true; // the person here is removed for obvious reasons.
 
     public void attemptToShip(String otherPerson) 
     {
