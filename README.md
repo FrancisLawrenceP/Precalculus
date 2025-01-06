@@ -44,16 +44,16 @@ Dear Dr. Mangawang,
 
 I hope you enjoy my creation. This project was crafted with you in mind, and I poured my effort and dedication into it. I hope it reflects the lessons and inspiration you've imparted to me.
 
-Sincerely,
-Adriaan M. Dimate
-Student, BSCS2-A
-202310449@gordoncollege.edu.ph
-
-Special Thanks
-Checked by:
-Prof. Loudel M. Manaloto, MSCS
-Program Coordinator, BSCS
-manaloto.loudel@gordoncollege.edu.ph
+Sincerely,  
+Adriaan M. Dimate   
+Student, BSCS2-A   
+202310449@gordoncollege.edu.ph      
+      
+Special Thanks     
+Checked by:     
+Prof. Loudel M. Manaloto, MSCS   
+Program Coordinator, BSCS   
+manaloto.loudel@gordoncollege.edu.ph   
 
 
 
