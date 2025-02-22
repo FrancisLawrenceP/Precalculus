@@ -197,7 +197,7 @@ public class Mangawang
 }
 
 /*
- * This section is sanctioned by Sir Dexter Mariano.
+ * This section is sanctioned by Sir Loudel Manaloto.
  * This code is object-oriented and follows the principles of encapsulation,
  * inheritance, and polymorphism.
  * However, it is mostly just encapsulation and inheritance I think.
